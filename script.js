@@ -159,7 +159,7 @@ const renderSpellE = () => {
 };
 
 const renderSpellR = () => {
-    spellDescri.innerText = currentChampSpells[3].description
+    spellDescri.innerHTML = currentChampSpells[3].description
     spellName.innerHTML = currentChampSpells[3].name;
 };
 
